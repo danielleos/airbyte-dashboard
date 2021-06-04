@@ -1,0 +1,33 @@
+.tile-container {
+  height: 300px;
+  padding: var(--spacing-1);
+  background-color: var(--colour-purple);
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.purple {
+  background-color: var(--colour-purple);
+}
+
+.orange {
+  background-color: var(--colour-orange);
+}
+
+.yellow {
+  background-color: var(--colour-yellow);
+}
+
+.small {
+  width: 300px;
+}
+
+.medium {
+  width: 600px;
+}
+
+.large {
+  width: 900px;
+}

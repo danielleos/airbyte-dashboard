@@ -1,7 +1,8 @@
-###############################
-# Git Crypt                   #
-###############################
-*/token.js filter=git-crypt diff=git-crypt
+# ###############################
+# # Git Crypt                   #
+# ###############################
+# Not needed anymore after switching API
+# */token.js filter=git-crypt diff=git-crypt
 
 ###############################
 # Git Line Endings            #

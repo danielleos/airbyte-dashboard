@@ -1,3 +1,27 @@
+/* Specify Global Styles */
+:root {
+  /* Colour palette */
+  --colour-black: #000;
+  --colour-white: #fff;
+  --colour-purple: #6C52D3;
+  --colour-orange: #ff764d;
+  --colour-yellow: #fabe18;
+  /* Spacing */
+  --spacing-1: 8px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-4: 32px;
+  --spacing-5: 40px;
+  --spacing-6: 48px;
+  --spacing-7: 56px;
+  --spacing-8: 64px;
+  --spacing-9: 72px;
+  --spacing-10: 80px;
+  /* Fonts */
+  --font-heading: 'Placeholder';
+  --font-body: 'Placeholder';
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

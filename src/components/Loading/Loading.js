@@ -12,9 +12,8 @@ export default class Loading extends PureComponent {
 
   render() {
     return (
-      <div styleName='loading-container'>
-        <GooSpinner size={100} color='#000'/>
-        {this.props.children}
+      <div class='loading-container'>
+        <GooSpinner size={100} color='var(--colour-yellow)'/>
       </div>
     )
   }
