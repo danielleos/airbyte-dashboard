@@ -1,0 +1,6 @@
+.graph-container {
+  height: 300px;
+  width: 500px;
+  padding: var(--spacing-2);
+  margin: var(--spacing-1);
+}

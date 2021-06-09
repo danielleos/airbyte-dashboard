@@ -1,33 +1,53 @@
 .tile-container {
-  height: 300px;
-  padding: var(--spacing-1);
-  background-color: var(--colour-purple);
-  border-radius: 25px;
+  height: 150px;
+  border-radius: 20px;
+  margin: var(--spacing-1);
+  padding: var(--spacing-2);
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
+  text-align: center;
+  background-color: var(--colour-purple-primary);
+  filter: drop-shadow(0 5px 10px rgba(139, 139, 139, 0.295));
 }
 
-.purple {
-  background-color: var(--colour-purple);
+.tile-purple {
+  background-image: linear-gradient(45deg, var(--colour-purple-primary), var(--colour-purple-secondary));
 }
 
-.orange {
-  background-color: var(--colour-orange);
+.tile-orange {
+  background-image: linear-gradient(45deg, var(--colour-orange-primary), var(--colour-orange-secondary));
 }
 
-.yellow {
-  background-color: var(--colour-yellow);
+.tile-yellow {
+  background-image: linear-gradient(45deg, var(--colour-yellow-primary), var(--colour-yellow-secondary));
 }
 
-.small {
+.tile-small {
+  width: 150px;
+}
+
+.tile-medium {
   width: 300px;
 }
 
-.medium {
-  width: 600px;
+.tile-large {
+  width: 450px;
 }
 
-.large {
-  width: 900px;
+.tile-title {
+  text-align: left;
+  color: var(--colour-white);
+  font-weight: lighter;
+}
+
+.main-content {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-heading-1);
+  color: var(--colour-white);
+  font-weight: bold;
 }
