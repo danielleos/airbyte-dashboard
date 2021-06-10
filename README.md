@@ -10,10 +10,11 @@ Using [JikanAPI](https://jikan.moe/) which is the unofficial API for MyAnimeList
 - [x] Be creative, although we aren't testing your design skills, we would like to see an attempt to make the interface look aesthetically pleasing.
 
 ### Running the app
-- For the time being this only runs locally
-- Clone this repository
-- Make sure you have node v15.13.0 and yarn v1.22.10 installed
-- Run the below to start the app on your localhost port 3000:
-    ```
-    yarn; yarn start
-    ```
+- To view a demo, visit: https://anime-stats-dashboard.glitch.me
+- To run locally:
+    - Clone this repository
+    - Make sure you have node v15.13.0 and yarn v1.22.10 installed
+    - Run the below to start the app on your localhost port 3000:
+        ```
+        yarn; yarn start
+        ```
