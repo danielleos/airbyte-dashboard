@@ -6,7 +6,7 @@ Dashboard to display data from an OpenAPI
 Using [JikanAPI](https://jikan.moe/) which is the unofficial API for MyAnimeList (MAL) anime database.
 
 ### Requirements
-- [x] Choose an Open API (e.g. http://www.omdbapi.com/, https://developer.musixmatch.com/documentation?ref=apilist.fun)
+- [x] Choose an Open API
 - [x] At least 3 separate data points displayed in different ways
 - [ ] An ordered list with search/filter (e.g. films in a specific genre)
 - [x] Be creative, although we aren't testing your design skills, we would like to see an attempt to make the interface look aesthetically pleasing.
