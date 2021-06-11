@@ -1,6 +1,8 @@
 # airbyte-dashboard
 Dashboard to display data from an OpenAPI
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d755dd18-0044-4081-a98b-98ddc7c89d14/deploy-status)](https://app.netlify.com/sites/anime-stats-dashboard/deploys)
+
 Using [JikanAPI](https://jikan.moe/) which is the unofficial API for MyAnimeList (MAL) anime database.
 
 ### Requirements
@@ -10,7 +12,7 @@ Using [JikanAPI](https://jikan.moe/) which is the unofficial API for MyAnimeList
 - [x] Be creative, although we aren't testing your design skills, we would like to see an attempt to make the interface look aesthetically pleasing.
 
 ### Running the app
-- To view a demo, visit: https://anime-stats-dashboard.glitch.me
+- To view a demo, visit: https://anime-stats-dashboard.netlify.app/
 - To run locally:
     - Clone this repository
     - Make sure you have node v15.13.0 and yarn v1.22.10 installed
